@@ -27,7 +27,7 @@ const Navbar = () => {
               className={
                 pathMatchRoute('/')
                   ? 'navbarListItemNameActive'
-                  : 'navbarListItem'
+                  : 'navbarListItemName'
               }
             >
               Explore
@@ -43,7 +43,7 @@ const Navbar = () => {
               className={
                 pathMatchRoute('/offers')
                   ? 'navbarListItemNameActive'
-                  : 'navbarListItem'
+                  : 'navbarListItemName'
               }
             >
               Offer
@@ -59,7 +59,7 @@ const Navbar = () => {
               className={
                 pathMatchRoute('/profile')
                   ? 'navbarListItemNameActive'
-                  : 'navbarListItem'
+                  : 'navbarListItemName'
               }
             >
               Profile
