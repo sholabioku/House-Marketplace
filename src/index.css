@@ -290,6 +290,7 @@ button {
 }
 
 .registerLink {
+  min-height: 20vh;
   margin-top: 4rem;
   color: #00cc66;
   font-weight: 600;
