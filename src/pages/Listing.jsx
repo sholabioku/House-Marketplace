@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { getDoc, doc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
@@ -13,8 +13,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const Listing = () => {
   const [listing, setListing] = useState(null);
