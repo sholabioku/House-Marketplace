@@ -43,7 +43,10 @@ const Slider = () => {
     return <Spinner />;
   }
 
-  console.log(listings);
+  if (listings.length === 0) {
+    return <></>;
+  }
+
   return (
     listings && (
       <>
