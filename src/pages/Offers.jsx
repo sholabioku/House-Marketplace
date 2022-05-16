@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 import {
   collection,
   getDocs,
@@ -15,7 +14,6 @@ import Spinner from '../components/Spinner';
 import ListingItem from '../components/ListingItem';
 
 const Offers = () => {
-  const params = useParams();
   const [listings, setListings] = useState(null);
   const [loading, setLoading] = useState(true);
   const [lastFetchedListing, setLastFetchedListing] = useState(null);

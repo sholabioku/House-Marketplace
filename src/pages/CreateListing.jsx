@@ -19,6 +19,7 @@ const CreateListing = () => {
   const isMounted = useRef(true);
 
   const [loading, setLoading] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [geolocationEnabled, setGeolocationEnabled] = useState(true);
   const [formData, setFormData] = useState({
     type: 'rent',
